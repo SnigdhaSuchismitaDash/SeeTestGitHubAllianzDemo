@@ -70,6 +70,10 @@ public class AllianzTest {
         client.click("WEB", "xpath=(//*[@nodeName='DIV' and ./parent::*[@nodeName='ZAHLBEITRAG' and ./parent::*[./parent::*[./parent::*[@name='schnellrechnerForm']]]]]/*/*[@text and @nodeName='A' and @width>0 and ./parent::*[@nodeName='DIV']])[3]", 0, 1);
     }
 
+    //my firt github program
+    //This message will show
+    
+    
     @After
     public void tearDown(){
         // Generates a report of the test case.
