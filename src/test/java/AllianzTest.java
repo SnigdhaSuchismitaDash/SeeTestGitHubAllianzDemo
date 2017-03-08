@@ -25,12 +25,12 @@ public class AllianzTest {
         if(client.waitForElement("WEB", "xpath=//*[@text='Mehr Informationen']", 0, 120000)){
             // If statement
         }
-        client.sleep(6000);
+        client.sleep(25000);
         client.click("WEB", "xpath=//*[@text='Mehr Informationen']", 0, 1, 417, 993);
         if(client.waitForElement("WEB", "xpath=//*[@text='Jetzt berechnen' and @nodeName='SPAN' and @width>0]", 0, 120000)){
             // If statement
         }
-        client.sleep(10000);
+        client.sleep(15000);
         client.click("WEB", "xpath=//*[@text='Jetzt berechnen' and @nodeName='SPAN' and @width>0]", 0, 1);
         client.sleep(10000);
         if(client.waitForElement("WEB", "xpath=//*[@text='1. Persönliche Daten']", 0, 30000)){
