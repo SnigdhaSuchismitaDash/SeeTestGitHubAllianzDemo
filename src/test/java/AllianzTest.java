@@ -33,7 +33,7 @@ public class AllianzTest {
         client.sleep(15000);
         client.click("WEB", "xpath=//*[@text='Jetzt berechnen' and @nodeName='SPAN' and @width>0]", 0, 1);
         client.sleep(10000);
-        if(client.waitForElement("WEB", "xpath=//*[@text='1. Persönliche Daten']", 0, 30000)){
+        if(client.waitForElement("WEB", "xpath=//*[@text='1. Persönliche Daten']", 0, 60000)){
             // If statement
         }
         client.click("WEB", "xpath=//*[@name='birthdate_day']", 0, 1);
