@@ -19,6 +19,8 @@ public class AllianzTest {
 
     @Test
     public void testAllianz(){
+    	
+    	//Changes --2nd time
         client.setDevice("ios_app:mobility's iPhone");
         client.launch("safari:https://www.allianz.de", true, false);
         client.sleep(2000);
